@@ -1,0 +1,21 @@
+{
+  "name": "zech86/php-simple-encrypted-text",
+  "minimum-stability": "stable",
+  "keywords": ["php","encryption"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Jonatas Zechim",
+      "email": "jonatas@zechim.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SimpleEncryptedText\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "ext-openssl": "*"
+  }
+}
